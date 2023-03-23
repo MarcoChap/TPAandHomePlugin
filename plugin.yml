@@ -1,0 +1,47 @@
+name: ShutdownEC2Instance
+main: me.BerylliumOranges.main.PluginMain
+version: 1.0
+api-version: 1.19
+commands:
+   stopshutdown:
+     description: Stops the ec2 instance from automatically shutting down after 10 minutes
+     aliases:
+     permission:
+     usage: /<command> <time in minutes>
+   tpa:
+     description: Make teleport requests to players
+     aliases:
+     permission:
+     usage: /<command> <player>
+   tpaccept:
+     description: Accept teleport requests from players
+     aliases:
+     permission:
+     usage: /<command> <player>
+   tpahere:
+     description: Make teleport requests for players
+     aliases:
+     permission:
+     usage: /<command> <player>
+   home:
+     description: Teleports you to your home
+     aliases:
+     permission:
+     usage: /<command> <home name or 'home' by default>
+   sethome:
+     description: Creates a home for you to teleport to
+     aliases:
+     permission:
+     usage: /<command> <home name or 'home' by default>
+   delhome:
+     description: Deletes a home
+     aliases:
+     permission:
+     usage: /<command> <home name>
+   listhome:
+     description: Lists your homes
+     aliases:
+     permission:
+     usage: /<command> <home name>
+   
+     
